@@ -15,6 +15,22 @@
 
 	<!-- title of site -->
 	<title>Muhammad Adil</title>
+	<style>
+        body {
+            margin: 0;
+            width: 100vw;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Ensure all elements inside the body do not cause overflow */
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100vw;
+        }
+    </style>
 
 	<!-- For favicon png -->
 	<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
@@ -54,7 +70,7 @@
 
 </head>
 
-<body>
+<body style="margin: 0; width: 100vw; overflow-x: hidden;">
 	<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -754,8 +770,8 @@
 		<div class="container">
 			<div class="hm-footer-copyright text-center">
 				<p>
-					&copy; copyright Muhammad Adil. 
-					 
+					&copy; copyright Muhammad Adil.
+
 				</p><!--/p-->
 			</div><!--/.text-center-->
 		</div><!--/.container-->
